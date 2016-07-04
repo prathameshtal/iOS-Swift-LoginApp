@@ -14,6 +14,9 @@
 		498543731D2A38F3003B69AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498543711D2A38F3003B69AC /* LaunchScreen.storyboard */; };
 		4985437E1D2A38F3003B69AC /* LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985437D1D2A38F3003B69AC /* LoginAppTests.swift */; };
 		498543891D2A38F3003B69AC /* LoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498543881D2A38F3003B69AC /* LoginAppUITests.swift */; };
+		498543991D2A4802003B69AC /* ShowMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498543981D2A4802003B69AC /* ShowMainScreen.swift */; };
+		4985439B1D2A5494003B69AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985439A1D2A5494003B69AC /* LoginViewController.swift */; };
+		4985439D1D2A5784003B69AC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985439C1D2A5784003B69AC /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		498543841D2A38F3003B69AC /* LoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498543881D2A38F3003B69AC /* LoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppUITests.swift; sourceTree = "<group>"; };
 		4985438A1D2A38F3003B69AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498543981D2A4802003B69AC /* ShowMainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMainScreen.swift; sourceTree = "<group>"; };
+		4985439A1D2A5494003B69AC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4985439C1D2A5784003B69AC /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				4985436F1D2A38F3003B69AC /* Assets.xcassets */,
 				498543711D2A38F3003B69AC /* LaunchScreen.storyboard */,
 				498543741D2A38F3003B69AC /* Info.plist */,
+				498543981D2A4802003B69AC /* ShowMainScreen.swift */,
+				4985439A1D2A5494003B69AC /* LoginViewController.swift */,
+				4985439C1D2A5784003B69AC /* WelcomeViewController.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4985439B1D2A5494003B69AC /* LoginViewController.swift in Sources */,
+				4985439D1D2A5784003B69AC /* WelcomeViewController.swift in Sources */,
 				4985436B1D2A38F3003B69AC /* ViewController.swift in Sources */,
 				498543691D2A38F3003B69AC /* AppDelegate.swift in Sources */,
+				498543991D2A4802003B69AC /* ShowMainScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.login.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.login.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
